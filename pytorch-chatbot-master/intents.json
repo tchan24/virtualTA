@@ -3,18 +3,23 @@
     {
       "tag": "greeting",
       "patterns": [
+        "What's up?",
         "Hi",
         "Hey",
         "How are you",
         "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good day",
+        "Yo",
+        "Wassup"
       ],
       "responses": [
         "Hey :-)",
         "Hello, thanks for visiting",
         "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hi there, how can I help?",
+        "What's up? Hope you're doing well.",
+        "Hello! How's it going?"
       ]
     },
     {
@@ -23,49 +28,69 @@
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
-        "Bye! Come back again soon."
+        "Bye! Come back again soon.",
+        "Happy learning! Come again if you have more questions."
       ]
     },
     {
       "tag": "thanks",
       "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "responses": ["Happy to help!", "Any time!", "My pleasure."]
     },
     {
-      "tag": "items",
+      "tag": "course",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "Which course do you assist in?",
+        "What courses are available?",
+        "What do you teach?",
+        "Can you help me?"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "I assist in Software Project Planning and Management",
+        "I help teach concepts in Software Project Planning and Management"
       ]
     },
     {
-      "tag": "payments",
+      "tag": "course-content",
       "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
+        "Do you know where I can find the syllabus?",
+        "Do you know the deadline for assignment one?",
+        "Can you help me with the homeworks?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "You can find the syllabus on eLearning or Coursebook.",
+        "The deadline for asssignment one is next Monday.",
+        "I cannot assist in homeworks, but I can answer certain questions for you."
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "weather",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "How's the weather?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "Sunny."
+      ]
+    },
+    {
+      "tag": "actual-content",
+      "patterns": [
+          "Teach me some concepts",
+          "What else do you know?",
+          "Some key definitions in this course"
+      ],
+      "responses": [
+        "PMBOK - Project Management Body of Knowledge",
+        "Boy howdy! You must know agile or else you're out of luck"
+      ]
+    },
+    {
+      "tag": "faqs",
+      "patterns": [
+        "What do you do?"
+      ],
+      "responses": [
+        "I assist in helping students with their questions in this course."
       ]
     },
     {
@@ -76,7 +101,7 @@
         "Do you know a joke?"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did one nail said to the other? Hang in there!.",
         "What did the buffalo say when his son left for college? Bison."
       ]
     }
